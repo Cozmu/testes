@@ -3,7 +3,6 @@ body{
    background-repeat: no-repeat;
    background-size: cover;
    background-attachment: fixed;
-
 }
   #titulo {
     font-family: 'Permanent Marker', cursive;
@@ -29,4 +28,5 @@ p, ul {
 .imagens{
     border-radius: 20%;
     border-style: outset;
+    border-color: #adc178;
 }
