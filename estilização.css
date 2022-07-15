@@ -3,10 +3,25 @@ body{
    background-repeat: no-repeat;
    background-size: cover;
    background-attachment: fixed;
+
 }
   .titulos {
     font-family: 'Permanent Marker', cursive;
    color: white;
     -webkit-text-stroke-width: 2px;
     -webkit-text-stroke-color: black;
+}
+.titulosSecundarios {
+    font-family: 'Permanent Marker', cursive;
+    color: white;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+}
+p, ul {
+    font-family: 'Orbitron', sans-serif;
+    color: white;
+        font-size: 20px;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+
 }
