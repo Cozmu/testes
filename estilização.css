@@ -1,15 +1,17 @@
 body{
-   background-image: url(./wallhaven-e7651w.jpg);
+   background-image: url(./coisas/wallhaven-e7651w.jpg);
    background-repeat: no-repeat;
    background-size: cover;
    background-attachment: fixed;
 
 }
-  .titulos {
+  #titulo {
     font-family: 'Permanent Marker', cursive;
    color: white;
-    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: black;
+    
+
 }
 .titulosSecundarios {
     font-family: 'Permanent Marker', cursive;
@@ -23,5 +25,8 @@ p, ul {
         font-size: 20px;
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: black;
-
+}
+.imagens{
+    border-radius: 20%;
+    border-style: outset;
 }
