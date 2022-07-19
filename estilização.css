@@ -1,40 +1,59 @@
-body{
-   background-image: url(./coisas/wallhaven-e7651w.jpg);
-   background-repeat: no-repeat;
-   background-size: cover;
-   background-attachment: fixed;
+* {
+    margin: 0;
+    padding: 0;
 }
-  #titulo {
+/*
+body {
+    background-image: url(./coisas/wallhaven-e7651w.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#titulo {
     font-family: 'Permanent Marker', cursive;
-   color: white;
+    color: white;
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: black;
-    
-
+    background-color: #e9edc9;
+    text-align: center;
 }
+
 .titulosSecundarios {
     font-family: 'Permanent Marker', cursive;
     color: white;
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: black;
 }
+h3.titulosSecundarios {
+    font-family: 'Permanent Marker', cursive;
+    color: white;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    background-color: #e9edc9;
+    border-top: 1px solid white;
+    text-align: center;
+    
+}
 p, ul {
     font-family: 'Orbitron', sans-serif;
     color: white;
-        font-size: 20px;
+    font-size: 20px;
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: black;
     list-style: none;
 }
-ul li::before{
+
+ul li::before {
     content: "\2022";
     color: black;
     display: inline-block;
     width: 1em;
-    margin-left:-1em;
+    margin-left: -1em;
     font-weight: bold;
 }
-.imagens{
+
+.imagens {
     border-radius: 5px;
     border-style: outset;
     border-color: #adc178;
