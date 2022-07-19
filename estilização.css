@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
 }
+
 /*
 body {
     background-image: url(./coisas/wallhaven-e7651w.jpg);
@@ -54,9 +55,7 @@ ul li::before {
 }
 
 .imagens {
-    border-radius: 5px;
-    border-style: outset;
-    border-color: #adc178;
+    border-radius: 5px outset #adc178;
 }
 
 
